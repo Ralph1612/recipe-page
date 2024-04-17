@@ -79,6 +79,23 @@ body{
     border-radius: 20px;
 }
 
+
+.grid-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.second-row{
+    font-weight: bold;
+    color: hsl(332, 51%, 32%);
+}
+
+hr{
+    border: none;
+    height: 1px; 
+    background-color: #000;
+}
+
 @media screen and (max-width: 768px) {
     .content{
         width: 100%;
@@ -89,6 +106,7 @@ body{
     .text{
         padding-left: 30px;
         padding-right: 30px;
+        padding-bottom: 30px;
     }
     .content img{
         border-radius: 0%;
@@ -98,15 +116,4 @@ body{
         margin: 0px;
     }
     
-}
-
-
-.grid-table{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.second-row{
-    font-weight: bold;
-    color: hsl(332, 51%, 32%);
 }
